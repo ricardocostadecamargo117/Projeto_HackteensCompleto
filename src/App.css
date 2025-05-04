@@ -1,0 +1,31 @@
+.app {
+  background-color: #0A0F24; /* Azul Profundo */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px; /* Adicione um pouco de padding ao redor do conteúdo principal */
+}
+
+.home-page, .sobre-page {
+  color: #F4F7FA; /* Branco Neve */
+  padding: 40px;
+}
+
+.home-page h1, .sobre-page h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.home-page p, .sobre-page p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #B0BEC5; /* Cinza Metálico */
+}

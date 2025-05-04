@@ -1,0 +1,44 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Ajuste conforme necessário para a altura da viewport */
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .hero-title {
+    font-family: 'Orbitron', sans-serif; /* Garanta que a fonte está importada em index.css */
+    font-weight: bold;
+    font-size: 3rem; /* Ajuste o tamanho conforme necessário */
+    color: #F4F7FA; /* Branco Neve */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-family: 'Inter', sans-serif; /* Garanta que a fonte está importada em index.css */
+    font-size: 1.2rem; /* Ajuste o tamanho conforme necessário */
+    color: #B0BEC5; /* Cinza Metálico */
+    line-height: 1.5;
+    margin-bottom: 30px;
+    max-width: 700px; /* Limita a largura do texto para melhor leitura */
+  }
+  
+  .hero-button {
+    background-color: #00AEEF; /* Azul Elétrico */
+    color: #F4F7FA; /* Branco Neve */
+    font-family: 'Montserrat', sans-serif; /* Garanta que a fonte está importada em index.css */
+    font-weight: 600; /* Semi-Bold */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #33c0ff; /* Clarear 10% do Azul Elétrico */
+  }

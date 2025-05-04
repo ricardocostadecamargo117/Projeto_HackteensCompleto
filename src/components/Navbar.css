@@ -1,0 +1,61 @@
+.navbar {
+    background-color: #0d0b17; /* Azul Profundo */
+    color: #F4F7FA; /* Branco Neve */
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000; /* Adiciona uma borda preta de 1px na parte inferior */
+  }
+  
+  /* ... restante dos estilos do Navbar ... */
+  
+  .navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(36, 107, 205);
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-left: 30px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #B0BEC5; /* Cinza Metálico */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #00AEEF; /* Azul Elétrico */
+  }
+  
+  .navbar-button {
+    background-color: #00AEEF; /* Azul Elétrico */
+    color: #F4F7FA; /* Branco Neve */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .navbar-button:hover {
+    background-color: #33c0ff; /* Clarear 10% do Azul Elétrico */
+  }

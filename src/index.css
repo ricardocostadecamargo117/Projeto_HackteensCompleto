@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Texto do Corpo */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@600&family=Orbitron:wght@700&family=Poppins:wght@700&display=swap');
+
+/* Se você não estiver usando CDN, precisará configurar as fontes localmente */

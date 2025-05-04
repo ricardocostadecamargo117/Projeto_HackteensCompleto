@@ -1,0 +1,87 @@
+.entrar-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    color: #F4F7FA; /* Branco Neve */
+  }
+  
+  .entrar-page h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .cadastro-form {
+    background-color: #0A0F24; /* Azul Profundo */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #B0BEC5; /* Cinza Metálico */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #6C63FF; /* Roxo Cósmico */
+    border-radius: 4px;
+    background-color: transparent;
+    color: #F4F7FA; /* Branco Neve */
+    font-size: 1rem;
+  }
+  
+  .cadastro-button {
+    background-color: #00AEEF; /* Azul Elétrico */
+    color: #F4F7FA; /* Branco Neve */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cadastro-button:hover {
+    background-color: #33c0ff; /* Clarear 10% do Azul Elétrico */
+  }
+  
+  .login-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #B0BEC5; /* Cinza Metálico */
+    text-align: center;
+  }
+  
+  .login-link a {
+    color: #00AEEF; /* Azul Elétrico */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+
+.erro-mensagem {
+    color: #FF4D4D; /* Vermelho */
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+  }
